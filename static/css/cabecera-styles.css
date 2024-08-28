@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(168, 14, 240);
+    margin: 15px;
+}
+
+header{
+    background-color: black;
+    width: 90%;
+    height: 120px;
+    margin-left: 5%;
+    border-radius: 40px;
+    box-shadow: 12px 12px 16px #e7b8ed;
+}
+
+header h1{
+    color:rgb(131, 30, 168);
+    text-align: center;
+    line-height: 70px;
+    font-size: 35px;
+    text-shadow: 6px 6px 16px rgb(164, 106, 159);
+}
+
+header ul{
+    display: flex;
+    float: left;
+}
+
+header ul li{
+    margin-left:50%;
+    list-style-type: none;
+}
+
+header ul li:hover{
+    background-color: rgb(23, 8, 28);
+}
+
+header ul li a{
+    text-decoration: none;
+    color: rgb(157, 39, 203);
+    line-height: 30px;
+}
+
+header ul li a:hover{
+    color: black;
+}

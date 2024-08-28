@@ -1,0 +1,16 @@
+footer {
+    margin-top: 300px;
+    background-color:#07020533 ;
+    width: 90%;
+    height: 100px;
+    margin-left: 5%;
+    border-radius: 32px;
+    box-shadow: 12px 12px 20px #ce95e0;
+}
+footer h1{
+    color: rgb(8, 2, 7) ;
+    font-size: 36px;
+    text-align: center;
+    line-height:100px ;
+    text-shadow: 8px 8px 20px #3333;
+}
