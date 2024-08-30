@@ -10,8 +10,8 @@
 .caja-p-1 {
     width: 30%;
     height: 100%;
-    background-color: rgb(71, 26, 86);
-    border: 7px solid #333;
+    background-color: rgb(48, 8, 90);
+    border: 7px solid #53186f;
     overflow-y: scroll;
     border-radius: 22px;
     margin-left: 2%;
@@ -20,8 +20,8 @@
 .caja-p-2 {
     width: 65%;
     height: 100%;
-    background-color: rgb(177, 147, 189);
-    border: 7px solid #333;
+    background-color: rgb(44, 8, 75);
+    border: 7px solid #531075;
     padding: 30px;
     border-radius: 22px;
 }
@@ -44,8 +44,8 @@
     margin-top:5%;
     margin-left: 5%;
     border-radius: 20px;
-    border: 8px solid #333;
-    box-shadow: 10px 10px 20px #333;
+    border: 8px solid #561e71;
+    box-shadow: 10px 10px 20px #a8a5aa;
 }
 
 .caja-n-1 img{
