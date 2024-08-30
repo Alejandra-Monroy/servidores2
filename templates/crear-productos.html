@@ -3,6 +3,7 @@
 {% block tittle %} AGREGAR PRODCUTOS {% endblock%}
 
 {% block content %}
+<link rel="stylesheet" href="url_for('statics', filename='/css/forms-styles.css')">
  <div class="contenedor-productos-crear">
     <h1>{%if productos %} Editar {% else %} Agregar {% endif %} Productos</h1>
     <form action="" method="post">

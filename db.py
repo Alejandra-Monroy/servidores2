@@ -21,7 +21,7 @@ def init_db():
 
 def get_all_products():
     conector = conectar()
-    productos = conector.execute ('SELECT * FORM productos').fetchall()
+    productos = conector.execute ('SELECT * FROM productos').fetchall()
     conector.close()
     return productos
 

@@ -10,7 +10,8 @@ def home():
 @servidor2.route('/productos')
 def productos():
     productos = db.get_all_products()
-    render_template('productos.html', productos=productos)
+   
+    return render_template('productos.html', productos=productos)
 
 @servidor2.route('/productos/agregar', methods=('GET','POST'))
 def crear_productos():
